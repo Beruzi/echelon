@@ -1,6 +1,7 @@
 # echelon
 A lightweight C++ linear algebra library
-
+---
+Nothing crazy like **eigen**, however maybe I'll revisit this sometime in the future and through all the metaprogramming in the world at it. 
 
 
 Compilation:
