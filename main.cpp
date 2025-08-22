@@ -28,6 +28,9 @@ int main() {
 	Vector w = x + y;
 	w.print();
 
+	std::cout << "Multiplication" << std::endl;
+	Vector ww = w * 2;
+	ww.print();
 	
 
 	return 0;

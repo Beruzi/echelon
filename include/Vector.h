@@ -52,7 +52,7 @@ public:
 		return data.at(i);
 	}
 
-	// Vector Operatiosn
+	// Vector 
 	Vector operator+(const Vector& other) {
 		Vector<T> sum;
 		
@@ -60,6 +60,15 @@ public:
 			sum.data.push_back(data[i] + other.data[i]);
 		}
 		return sum;
+	}
+
+	// Scalar Multiplication
+	Vector operator*(int scalar) {
+		Vector<T> res;
+		for(int i = 0; i < this->data.size(); ++i) {
+			res.data.push_back(data[i] * scalar);
+		}	
+		return res;
 	}
 
 	// Utility
