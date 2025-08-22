@@ -19,14 +19,11 @@ int main() {
 	Vector y = c; // Assign Init (copy assignment)
 	
 	a.print();
+	std::cout "HELLO" << std::endl;
 	b.print();
 	c.print();
 	x.print();
 	y.print();
-
-	std::cout << "ADDITION" <<std::endl;
-	Vector w = x + y;
-	w.print();
 
 	
 
